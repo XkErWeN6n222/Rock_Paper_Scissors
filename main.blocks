@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="n@/Yio6_9lG@.Yr-OE)d">hand</variable></variables><block type="device_gesture_event" id="^?5j]$hJEU(=^_#7X=,b" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="*Em(^W(fFHG:J^}+VRJ8"><field name="VAR" id="n@/Yio6_9lG@.Yr-OE)d">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="+.#_uS6}SB+w2Ey!U$s#"><value name="min"><shadow type="math_number" id="I=sji=qFa8yu([f=7!G@"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="/lT.]hH(/R(UPnX~.UfD"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="b]^X?:YWdv]y?%6Fh-`S"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Dm`7koz;P:4gu(5)`K7,"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="zT~#uK96DV{g1B(8J$t^"><field name="VAR" id="n@/Yio6_9lG@.Yr-OE)d">hand</field></block></value><value name="B"><shadow type="math_number" id="Z@mT?LW@J:zO^D8zHY)y"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="==F5FMO@{n:k55Z;qDK|"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="[!2qh4xDT!(qrBy(`;G_"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="*5EI~-A|5#GG,:C,7{7P"><field name="VAR" id="n@/Yio6_9lG@.Yr-OE)d">hand</field></block></value><value name="B"><shadow type="math_number" id="TH+9_:weMmt[fGU[@X@C"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="O65zQmXDW/ZuOafLa[12"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="0Ra7*/mQzKrVg]uA8h,h"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
